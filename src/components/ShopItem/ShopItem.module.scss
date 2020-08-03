@@ -1,0 +1,15 @@
+.item {
+  width: 100%;
+  max-width: 48%;
+  text-align: center;
+
+  p {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 425px) {
+  .item {
+    max-width: 100%;
+  }
+}
